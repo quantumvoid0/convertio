@@ -1,0 +1,15 @@
+
+#main_window {
+	border:2px solid #fff;
+	border-radius:0px;
+}
+
+#combo , #inp, #go{
+	border:0px solid #fff;
+	box-shadow: 4 4 0 0 #fff;
+	border-radius:30px;
+}
+#label {
+	padding:20px;
+}
+
