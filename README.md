@@ -4,6 +4,9 @@ A lightweight unit converter written in C using GTK
 > [!NOTE]
 > This app uses icons from [Nerd Fonts](https://www.nerdfonts.com/), so make sure you have a Nerd Font installed and set as your system font.
 
+> [!NOTE]
+> This app is still WIP , more units and convertions will be coming soon (not very soon)
+
 ## Installation
 
 ```fish
