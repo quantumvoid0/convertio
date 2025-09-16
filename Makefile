@@ -6,19 +6,11 @@ install:
 	install -Dm755 src/style.css /usr/share/convertio/style.css
 	install -Dm755 src/ui.glade /usr/share/convertio/ui.glade
 	install -Dm755 convertio.desktop /usr/share/applications/convertio.desktop
-	rm -rf src
-	rm -rf app
-	rm -rf Makefile
-	rm -rf convertio.desktop
 
 uninstall:
 	sudo rm -rf /usr/share/convertio
 	sudo rm -rf /usr/bin/convertio
 	sudo rm -rf /usr/share/applications/convertio.desktop
-	rm -rf src
-	rm -rf app
-	rm -rf Makefile
-	rm -rf convertio.desktop
 
 
 clean:
